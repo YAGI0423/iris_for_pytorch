@@ -8,7 +8,7 @@
 <br>
 
 ***
-+ 프로젝트 기간: 2023-08-07 ~ (진행중)
++ 프로젝트 기간: 2023-08-07 ~ 2023-08-08
 ***
 <br>
 
@@ -33,7 +33,7 @@ from irisForPytorch.datasets import IrisDataset
 
 #is_train: True -> 학습 데이터, False -> 검증 데이터
 #normalize: True -> 0 ~ 1
-dataset = Cifar10Dataset(
+dataset = IrisDataset(
     is_train=True,
     normalize=True,
 )
