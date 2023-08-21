@@ -4,6 +4,9 @@
 작성자: YAGI<br>
 
 최종 수정일: 2023-08-08
++ 2023.08.07: 코드 작성 완료
++ 2023.08.08: READ ME 작성 완료
++ 2023.08.08: 프로젝트 종료
 ***
 <br>
 
@@ -26,7 +29,7 @@
 
 ## Getting Start
 
-### Get Logic Dataset
+### Get Iris Dataset
 ```python
 from torch.utils.data import DataLoader
 from irisForPytorch.datasets import IrisDataset
